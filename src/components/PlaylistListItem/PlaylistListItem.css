@@ -1,0 +1,18 @@
+.PlaylistListItem{
+	display: inline-block;
+	width: 90%;
+	border-bottom: 3px;
+	border-color: white;
+}
+.PlaylistListItem-action {
+  cursor: pointer;
+  padding: .5rem;
+  font-size: 1.05rem;
+  transition: color .25s;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+}
+.PlaylistListItem:hover {
+  color: rgba(265, 265, 265, .5);
+}
